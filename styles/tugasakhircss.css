@@ -1,0 +1,292 @@
+header{
+  overflow: hidden;
+  background: linear-gradient(164.4deg, #A4C28D 3.78%, #8EAB78 107.27%);
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.13);
+  position: sticky;
+  top: 0;
+
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main,
+aside{
+  background: linear-gradient(246.59deg, #A1C08B 3.23%, #FFFFFF 102.88%);
+  color: #2A421D;
+  padding:70px;
+  font-size: 12px;
+  font-weight: 200;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right {
+  float: right;
+  margin-right: 70px;
+
+  color: #FFFFFF;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav a:hover{
+  font-size: 110%;
+}
+
+.logo{
+    flex-basis: 98%;
+    padding-bottom: 50px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .flex {
+    flex-direction: column-reverse;
+  }
+}
+
+.menu{
+  flex-basis: 90%;
+}
+
+.box1{
+  width: 150px;
+  margin-top: 50px;
+  padding: 10px;
+  background: #F8F8F8;
+  color: #2A421D;
+  box-shadow: -1px -1px 4px #F3F3F3, 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25.0613px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.box1:hover{
+  background-color: #2A421D;
+  color: white;
+}
+
+.fotorelatte{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+
+  padding-bottom: 20px;
+}
+
+.bintang{
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: left;
+  float: left;
+}
+
+.text{
+  color: #2A421D;
+  padding-left: 70px;
+  padding-top: 150px;
+}
+
+.relatte{
+  flex-basis: 65%;
+  padding: 30px 30px 200px 0px;
+  font-size: 18px;
+}
+
+h1{
+  font-size:50px;
+}
+
+h2{
+  font-size: 35px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.relattepic{
+  max-width: 350px;
+  height :auto;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.menubox{
+  background-color: #F4F4F4;
+  box-shadow: 6.20513px 6.20513px 18.6154px rgba(0, 0, 0, 0.05);
+  border-radius: 24.8205px;
+
+  padding: 20px 40px;
+  margin: 20px 40px 50px 0px;
+  flex-basis: 30%;
+}
+
+.menubox:hover{
+  background-color: #2A421D;
+  color: white;
+}
+.box3{
+  background-color: #F4F4F4;
+  box-shadow: 6.20513px 6.20513px 18.6154px rgba(0, 0, 0, 0.05);
+  border-radius: 24.8205px;
+  padding: 20px 40px;
+  margin: 20px 40px 40px 0px;
+}
+
+.maps{
+  width: 600px;
+  height: 450px;
+  border: 0;
+  object-fit: cover;
+  margin-left: 50px;
+}
+
+
+.flex1{
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown{
+  position: relative;
+  width: 500px;
+  height: auto;
+
+  text-indent: 20px;
+  padding: 20px;
+
+  background: #E8F0E2;
+  border-radius: 18.7054px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.select-selected{
+  background-color: #8EAB78;
+}
+
+.qty{
+  margin-top: 2px;
+  width: 100px;
+  height: auto;
+
+  padding: 20px;
+  text-align: center;
+
+  background: #E8F0E2;
+}
+
+.button{
+  margin-top: 2px 2px 0px 0px;
+  width: 20px;
+  height: auto;
+  padding: 20px;
+  color: #FFFFFF;
+  background-color: #365B19;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tambah{
+  border-radius: 0px 19px 19px 0px;
+}
+
+.kurang{
+  border-radius: 19px 0px 0px 19px;
+}
+
+
+.count{
+  margin-top: 2px;
+
+  width: 70px;
+  text-align: center;
+  padding: 20px;
+  color: #FFFFFF;
+  background-color: #365B19;
+  border-radius: 18.7054px;
+  object-position: right;
+}
+
+.flex2{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex3{
+  flex-basis: 80%;
+}
+
+@media (max-width: 800px) {
+  .flex1 {
+    flex-direction: column;
+  }
+
+  .relatte {
+      padding: 0px 0px 30px 0px;
+    }
+  
+  .maps{
+    width: auto;
+  }
+
+  .dropdown{
+    width: auto;
+  }
+
+  .flex3{
+    margin-bottom: 100px;
+  }
+}
+
+.biodata{
+  text-align: center;
+  object-position: center;
+  padding: 20px;
+}
+
+.fotodiri{
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 6.20513px 6.20513px 18.6154px rgba(0, 0, 0, 0.05);
+  flex-basis: 50%;
+  
+}
+
+footer {
+  padding: 20px;
+  background-color: #A4C28D;
+  text-align: left;
+  font-weight: bold;
+}
+

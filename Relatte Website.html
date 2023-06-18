@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> reLatte </title>
+        <link rel="stylesheet" href="styles/tugasakhircss.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <header>
+        <div class="flex">
+            <div class="logo">
+                <figure><img src="styles/image/Logo relatte.png" width="80px"></figure>
+            </div>
+    
+            <div class="menu flex">
+            <nav>
+                <ul>
+                    <li><a href="#me" class="right">About me</a></li>
+                    <li><a href="#delivery" class="right">Delivery</a></li>
+                    <li><a href="#buy" class="right">Buy</a></li>
+                    <li><a href="#menu" class="right">Menu</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+        </header>
+        
+        <main>
+            <article class="flex">
+                <section class="relatte">
+                    <h1>reLatte</h1>
+                    <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Ut imperdiet placerat metus ac interdum. Aliquam et nisl felis. </p>
+                    <a href="#buy" class="box1">Order here</a>
+                </section>
+
+                <section>
+                    <figure><img src="styles/image/foto relatte.png" class="relattepic"></figure>
+                </section>
+            </article>
+
+            <div id="menu">
+                <h2>Our Signature Menu</h2>
+                <div class="flex1">
+                    <div class="menubox">
+                        <figure><img src="styles/image/Matcha Latte.png" class="fotorelatte"></figure>
+                        <div>
+                            <h3>Matcha Latte</h3>
+                            <p>Matcha, Fresh Milk, and Love</p>
+                            <h3>Rp15.000,-</h3>
+                        </div>
+                    </div>
+
+                    <div class="menubox">
+                        <figure><img src="styles/image/Mocha latte.png" class="fotorelatte"></figure>
+                        <div>
+                            <h3>Dark Mocha Latte</h3>
+                            <p>Mocha, Fresh Milk, Espresso</p>
+                            <h3>Rp17.000,-</h3>
+                        </div>
+                    </div>
+
+                    <div class="menubox">
+                        <figure><img src="styles/image/Mocha latte.png" class="fotorelatte"></figure>
+                        <div>
+                            <h3>Dark Mocha Latte</h3>
+                            <p>Mocha, Fresh Milk, Espresso</p>
+                            <h3>Rp21.000,-</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="buy">
+                <h2>Buy</h2>
+                <div class="flex1 box3">
+                    <section>
+                        <figure><img src="styles/image/relatte all varian.png" class="fotorelatte" style="margin:60px 60px 0px 0px"></figure>
+                    </section>
+
+                    <section>
+                        <h3>Menu</h3>
+                        <div class="dropdown">
+                            <select id="list" onchange="getValue();">
+                                <option value="0">Pick your favorite menu</option>
+                                <option value="Matcha">Matcha Latte</option>
+                                <option value="Caramel">Caramel Coffee Latte</option>
+                                <option value="Mocha">Dark Mocha Latte</option>
+                            </select>
+                        </div>
+
+                        <h3>Qty</h3>
+                        <div class="flex1">
+                            <div class="flex3">
+                                <section class="flex2">
+                                    <button class="kurang button">-</button>
+                                    <div class="qty" id="hasil">0</div>
+                                    <button class="tambah button">+</button>
+                                </section>
+                            </div>
+
+                            <div>
+                                <button class="count ok button">OK</button>
+                            </div>
+                        </div>  
+
+                        <h3>Total</h3>
+                        <p class="dropdown" id="jumlah">0</p>
+
+                        <button class="count sum button">Order</button>
+                    </section>
+                <div>
+
+                </div>
+            </div>
+
+            <div class="box3 flex1" id="delivery">
+                <section>
+                    <h2>Our Location</h2>
+                </section>
+                <section>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.5391588514026!2d106.97581271424198!3d-6.324095095423254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699363931c6461%3A0x7ea1754942c662ee!2sKrupuk%20kulit%20ANDIKA!5e0!3m2!1sen!2sid!4v1661603509608!5m2!1sen!2sid" class="maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </div>
+
+        </main>
+
+        <aside id="me">
+            <h2>Biodata</h2>
+            <div class="flex1 box3 biodata">
+                <div>
+                    <figure><img src="styles/image/Foto Andika.jpg" class="fotodiri"></figure>
+                </div>
+
+                <div>
+                    <h3>Andika Triana Mutiara Widiaputri</h3>
+                    <p></p> 
+                </div>
+            </div>
+            
+        </aside>
+
+        <script src="styles/tugasakhir.js"></script>
+    </body>
+    
+    <footer>
+        <p>Reach us on</p>
+        <p>Instagram : <a href="https://www.instagram.com/relatte_id/?hl=id">relatte_id</a></p>
+    </footer>
+</html>
